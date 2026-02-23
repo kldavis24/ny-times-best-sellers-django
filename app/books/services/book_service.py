@@ -8,7 +8,6 @@ from .exceptions import ExternalApiFormatError
 
 
 class BookService(externalService):
-
     def __init__(self):
         self.client = ExternalBookApiClient()
 
