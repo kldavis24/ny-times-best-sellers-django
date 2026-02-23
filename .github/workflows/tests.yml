@@ -38,7 +38,4 @@ jobs:
 
       - name: Debug Django settings module
         working-directory: app
-        run: python - << 'EOF'
-          import os
-          print("DJANGO_SETTINGS_MODULE =", os.getenv("DJANGO_SETTINGS_MODULE"))
-          EOF
+        run: python -c "import os; print('DJANGO_SETTINGS_MODULE =', os.getenv('DJANGO_SETTINGS_MODULE'))"
