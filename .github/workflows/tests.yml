@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
+      DJANGO_SETTINGS_MODULE: project.settings_test
       NY_TIMES_BOOKS_API_URL: "https://example.com"
       NY_TIMES_BOOKS_API_KEY: "test-key"
-      DJANGO_SETTINGS_MODULE: project.settings
 
     steps:
       - name: Checkout code
