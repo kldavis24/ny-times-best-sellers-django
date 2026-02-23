@@ -1,0 +1,15 @@
+{
+  "results": {
+    "books": [
+      {
+        "title": "List Book",
+        "author": "A",
+        "publisher": "P",
+        "description": "D",
+        "rank": 1,
+        "weeks_on_list": 1,
+        "isbns": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "results": {
+    "lists": [
+      {
+        "books": [
+          {
+            "title": "Test Book",
+            "author": "Author",
+            "publisher": "Pub",
+            "description": "Desc",
+            "rank": 1,
+            "weeks_on_list": 2,
+            "isbns": []
+          }
+        ]
+      }
+    ]
+  }
+}
